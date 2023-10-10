@@ -1,0 +1,37 @@
+.type-s {
+  text-align: left;
+  font-weight: 600;
+  color: green;
+}
+
+.type-o {
+  text-align: right;
+  font-weight: 600;
+  color: orange;
+}
+
+h1 {
+  text-align: center;
+}
+
+.training {
+  text-align: center;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.title {
+  text-align: center;
+  font-size: 30px;
+  color: red;
+}
+.sub-title {
+  color: blue;
+  text-align: center;
+}
+
+.poem {
+  text-align: left;
+  font-size: 20pt;
+  flex-wrap: nowrap;
+}

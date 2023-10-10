@@ -1,0 +1,16 @@
+.FIO {
+  text-align: center;
+}
+.Date {
+  text-decoration: underline;
+}
+.Stydy {
+  font-style: italic;
+}
+.Spec {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-transform: uppercase;
+}
+.City {
+  font-size: 40px;
+}

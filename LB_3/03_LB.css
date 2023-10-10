@@ -1,0 +1,34 @@
+.num-list{
+    list-style-type: upper-latin;
+}
+.num-list-st{
+  list-style-type: lower-latin;
+  
+}
+.num-list-st lh{
+    color: blue;
+    font-size: 20pt;
+}
+
+.num-list-college li{
+    color:darkblue;
+    font-style: italic;
+
+}
+
+.num-list-college lh{
+    font-weight: 700;
+    color: red;
+}
+
+.stud-511{
+    color:purple
+}
+.stud-515{
+    color:red
+}
+
+.koz{
+    width: 20px;
+    margin-right: 10px;
+}

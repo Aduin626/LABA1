@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="http://www.mysite.com/cgi-bin/test.exe" method="post">
+      <div>
+        <label for="username">Имя пользователя</label>
+        <input
+          type="text"
+          name="username"
+          id="username"
+          value=""
+          placeholder="введите имя пользователя..."
+          size="30" />
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          value=""
+          size="30"
+          placeholder="введите email..." />
+      </div>
+      <div>
+        <label for="creater">Имя создателя страницы</label>
+        <input
+          type="text"
+          name="creater"
+          id="creater"
+          value="teacher"
+          size="30"
+          readonly />
+      </div>
+      <fieldset>
+        <legend>Выберете роль</legend>
+
+        <div>
+          <input
+            type="radio"
+            id="student"
+            name="group"
+            value="student"
+            checked />
+          <label for="huey">Студент</label>
+        </div>
+
+        <div>
+          <input type="radio" id="pupil" name="group" value="pupil" />
+          <label for="pupil">Учащийся</label>
+        </div>
+
+        <div>
+          <input type="radio" id="teacher" name="group" value="teacher" />
+          <label for="teacher">Учитель</label>
+        </div>
+
+        <div>
+          <input type="radio" id="employee" name="group" value="employee" />
+          <label for="employee">Сотрудник</label>
+        </div>
+      </fieldset>
+
+      <div>
+        <label for="www">www</label>
+        <input type="checkbox" name="group" value="www" id="www" />
+      </div>
+      <div>
+        <label for="email">email</label>
+        <input type="checkbox" name="group" value="email" id="email" />
+      </div>
+      <div>
+        <label for="ftp">ftp</label>
+        <input type="checkbox" name="group" value="ftp" id="ftp" />
+      </div>
+      <div>
+        <label for="BROWSERS">Предпочитаемый браузер</label>
+        <select name="BROWSERS" id="BROWSERS">
+          <option selected>Chrome</option>
+          <option>Opera</option>
+          <option>mazilla</option>
+        </select>
+      </div>
+      <div>
+        <label for="resume">Отзыв</label>
+      </div>
+      <div>
+        <textarea name="resume" id="resume" cols="30" rows="10"></textarea>
+      </div>
+      <div>
+        <button type="submit" value="отправить">отправить</button>
+        <button type="reset" value="очистить ">очистить</button>
+      </div>
+    </form>
+  </body>
+</html>

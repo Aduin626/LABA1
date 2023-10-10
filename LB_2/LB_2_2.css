@@ -1,0 +1,42 @@
+.quote {
+  margin-bottom: 20px;
+}
+.bold {
+  text-align: center;
+  font-weight: 700;
+}
+
+.or {
+  text-align: center;
+}
+
+.italic {
+  text-align: center;
+  font-style: italic;
+}
+
+.machine {
+  text-align: right;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.emphasized {
+  text-decoration: underline;
+}
+
+.crossed-out {
+  text-decoration: line-through;
+}
+.BIG,
+.SMALL {
+  text-align: center;
+}
+.logic {
+  text-align: right;
+  font-style: italic;
+}
+
+.div {
+  text-align: center;
+}
