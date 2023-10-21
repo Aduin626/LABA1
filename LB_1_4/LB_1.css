@@ -3,6 +3,11 @@ img{
     height: 60px;
 
 }
+/* .lead span { color: yellow } */
+/* div span { color: yellow } */
+div p.lead { color: yellow }/* 
+/* div .some span { color: yellow } */ */
+
 .img-bottom{
     
     border:2px solid black;
@@ -15,5 +20,8 @@ img{
 }
 
 body{
+    text-transform: capitalize;
     background: url(/LB_1/img/Googel.jpeg);
 }
+
+[class~="lorem"] { background: #666; }

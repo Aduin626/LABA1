@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link href="slyles.css" rel="stylesheet" />
+        <title>z-index</title>
+    </head>
+    <body>
+        <!-- первое задание -->
+        <p>Слой 1 наверху</p>
+        <div id="layer1">Слой 1</div>
+        <div id="layer2">Слой 2</div>
+        <p>Слой 4 наверху</p>
+        <div id="layer3">Слой 3</div>
+        <div id="layer4">Слой 4</div>
+
+        <!-- второе задание -->
+        <div class="layer">
+            <h2>Duis te feugifacilisi</h2>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diem 
+             nonummy nibh euismod tincidunt ut lacreet dolore magna aliguam erat volutpat. 
+             Ut wisis enim ad minim veniam, quis nostrud exerci tution ullamcorper suscipit 
+             lobortis nisl ut aliquip ex ea commodo consequat.</p>
+           </div> 
+
+        <!-- третье задание -->
+        <div id="dis1">Блочный элемент превратим в строчный</div>
+        <span id="dis2">Строчный превратим в блочный</span>
+
+        <!-- четвертое задание -->
+        <p class="pos_fixed">Это позиционированный параграф. Обратите внимание, что он позиционируется относительно окна браузера.</p>
+        <p>Заметка: Internet Explorer 7 (и выше поддерживает) значение position:fixed, только если указан !DOCTYPE.</p>
+        <p>Обычный параграф.</p>
+        <p>Обычный параграф.</p>
+        <p>Обычный параграф.</p>
+        <p>Обычный параграф.</p>
+        <p>Обычный параграф.</p>
+        <p>Обычный параграф.</p>
+        <p>Обычный параграф.</p>
+        <p>Обычный параграф.</p>
+        <p>Обычный параграф.</p>
+
+        <h2 id="absolute-h">Это заголовок с абсолютной позицией.</h2>
+        <p>С помощью абсолютного позиционирования элемент можно разместить где угодно. Заголовок выше спозиционирован на 100 пикселей слева и 150 пикселей сверху.</p>
+
+        <h1>Это заголовок</h1>
+        <img id="absolute-img" src="image1.jpeg" width="100" height="100" />
+        <p>Так как изображение имеет z-index равный -1, оно перекрывается текстом.</p>
+
+        <img class="rezanyi" src="image1.jpeg" width="100" height="100"/><br><br>
+        <img src="image1.jpeg" width="100" height="100" style="margin-top: 150px;" />
+
+        <p>Свойство CSS overflow определяет, что будет с элементом, если его содержимое не помещается в видимые пределы элемента.</p>
+        <p>overflow:scroll</p>
+        <div class="scroll">Вы можете использовать свойство overflow для контроля над разметкой. На некоторых сайтах используются окошки с меню и полосами прокрутки. Значение по умолчанию visible.</div>
+        <p>overflow:hidden</p>
+        <div class="hidden">Вы можете использовать свойство overflow для контроля над разметкой. На некоторых сайтах используются окошки с меню и полосами прокрутки. Значение по умолчанию visible.</div>
+
+    </body>
+</html>

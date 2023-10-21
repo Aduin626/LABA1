@@ -1,0 +1,77 @@
+img {
+    opacity: 0.3;
+}
+img:hover {
+    opacity:1;
+    cursor: pointer;
+}
+
+#layer1, #layer2, #layer3, #layer4 {
+    position: relative; /* Относительное позиционирование */
+   } 
+   #layer1, #layer3 {
+    font-size: 50px; /* Размер шрифта в пикселах */
+    color: #000080; /* Синий цвет текста */
+   }
+   #layer2, #layer4 {
+    top: -55px; /* Сдвигаем текст вверх */
+    left: 5px; /* Сдвигаем текст вправо */
+    color: #ffa500; /* Оранжевый цвет текста */
+    font-size:70px;  /* Размер шрифта в пикселах */
+   }
+   #layer1 { z-index: 2; }
+   #layer2 { z-index: 1; }
+   #layer3 { z-index: 3; }
+   #layer4 { z-index: 4; }
+
+   .layer {
+    overflow: scroll; /* Добавляем полосы прокрутки */
+    width: 300px; /* Ширина блока */
+    height: 150px; /* Высота блока */
+    padding: 5px; /* Поля вокруг текста */
+    border: solid 1px black; /* Параметры рамки */
+   } 
+
+    #dis1 {
+       display:inline;
+    }
+    #dis2 {
+        display:block;
+     }
+
+p.pos_fixed {
+    position:fixed;
+    top:30px;
+    right:30px;
+    color:red;
+}
+
+#absolute-h {
+    position:absolute;
+    left:100px;
+    top:150px;
+}
+
+#absolute-img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    z-index:-1;
+}
+
+img.rezanyi {
+    clip:rect(50px,60px,0px,0px);
+}
+
+div.scroll {
+    background-color:#00FFFF;
+    width:200px;
+    height:100px;
+    overflow:scroll;
+} 
+div.hidden {
+    background-color:#00FF00;
+    width:200px;
+    height:100px;
+    overflow:hidden;
+}
